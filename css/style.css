@@ -1,3 +1,8 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+}
 .panda-card{
     border: 0;
 }
@@ -12,13 +17,26 @@ width: 100px;
 
 #bg{
   
+  background-color: lemonchiffon;
 }
 .unfield{
     color: white;
 }
 .first-portion{
-   background-color: lightcyan;
+  
    border-radius: 1em;
+}
+.col-md-7 img{
+    height: 80%;
+    width: 100%;
+}
+.pra{
+    color: indigo;
+}
+.img{
+    align-items: center;
+    width: 100px;
+    float: left;
 }
 
 .btn-btn{
@@ -34,11 +52,11 @@ width: 100px;
     height: 50px;
 }
 .h1{
-    font-size: 40px;
+    font-size: 60px;
     color: indigo;
 }
 .h2{
-    font-size: 25px;
+    font-size: 50px;
     color: green;
 }
 .c{
@@ -56,4 +74,12 @@ width: 100px;
     color: floralwhite;
     font-weight: 600;
     float: right;
+}
+.half-width{
+    width: 50%;
+    float: left;
+}
+.dollar{
+    font-size: 25px;
+    color: green;
 }
